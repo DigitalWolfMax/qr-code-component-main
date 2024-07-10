@@ -1,0 +1,8 @@
+@import "boilerplate.css";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+body {
+    font-size: 1.5rem;
+    font-family: 'Outfit', sans-serif;
+}

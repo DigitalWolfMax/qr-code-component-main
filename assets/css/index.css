@@ -1,0 +1,48 @@
+@import "boilerplate.css";
+@import "colors.css";
+@import "typo.css";
+
+
+
+
+.content{
+    background-color: var(--light-gray);
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-card {
+    width: 325px;
+    height: 500px;
+    background-color: var(--white); 
+    border-radius: 10px;
+}
+
+.qr-card img {
+    height: 290px;
+    border-radius: 10px;
+    margin: 17px;
+}
+
+
+.qr-card__description p {
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--grayish-blue);
+    margin: 2.5rem 4.0rem 2.5rem 4.0rem;
+    font-weight: 400;
+}
+
+.qr-card__description h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--dark-blue);
+    margin: 0 3.8rem;
+    font-weight: 700;
+}   
+
+@media (min-width: 375px) {
+    
+}
